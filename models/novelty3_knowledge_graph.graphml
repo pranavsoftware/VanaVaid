@@ -1,0 +1,1080 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d3" for="edge" attr.name="via" attr.type="string" />
+  <key id="d2" for="edge" attr.name="strength" attr.type="double" />
+  <key id="d1" for="edge" attr.name="type" attr.type="string" />
+  <key id="d0" for="node" attr.name="node_type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="curcumin">
+      <data key="d0">herbal_compound</data>
+    </node>
+    <node id="withanolide_A">
+      <data key="d0">herbal_compound</data>
+    </node>
+    <node id="nimbin">
+      <data key="d0">herbal_compound</data>
+    </node>
+    <node id="eugenol">
+      <data key="d0">herbal_compound</data>
+    </node>
+    <node id="gingerol">
+      <data key="d0">herbal_compound</data>
+    </node>
+    <node id="bacoside_A">
+      <data key="d0">herbal_compound</data>
+    </node>
+    <node id="ascorbic_acid">
+      <data key="d0">herbal_compound</data>
+    </node>
+    <node id="allicin">
+      <data key="d0">herbal_compound</data>
+    </node>
+    <node id="cinnamaldehyde">
+      <data key="d0">herbal_compound</data>
+    </node>
+    <node id="gymnemic_acid">
+      <data key="d0">herbal_compound</data>
+    </node>
+    <node id="piperine">
+      <data key="d0">herbal_compound</data>
+    </node>
+    <node id="quercetin">
+      <data key="d0">herbal_compound</data>
+    </node>
+    <node id="berberine">
+      <data key="d0">herbal_compound</data>
+    </node>
+    <node id="ashwagandhanolide">
+      <data key="d0">herbal_compound</data>
+    </node>
+    <node id="neem_limonoid">
+      <data key="d0">herbal_compound</data>
+    </node>
+    <node id="moringin">
+      <data key="d0">herbal_compound</data>
+    </node>
+    <node id="diosgenin">
+      <data key="d0">herbal_compound</data>
+    </node>
+    <node id="asiaticoside">
+      <data key="d0">herbal_compound</data>
+    </node>
+    <node id="sennoside_A">
+      <data key="d0">herbal_compound</data>
+    </node>
+    <node id="gallic_acid">
+      <data key="d0">herbal_compound</data>
+    </node>
+    <node id="catechin">
+      <data key="d0">herbal_compound</data>
+    </node>
+    <node id="rosmarinic_acid">
+      <data key="d0">herbal_compound</data>
+    </node>
+    <node id="ursolic_acid">
+      <data key="d0">herbal_compound</data>
+    </node>
+    <node id="metformin">
+      <data key="d0">drug</data>
+    </node>
+    <node id="aspirin">
+      <data key="d0">drug</data>
+    </node>
+    <node id="warfarin">
+      <data key="d0">drug</data>
+    </node>
+    <node id="sertraline">
+      <data key="d0">drug</data>
+    </node>
+    <node id="lisinopril">
+      <data key="d0">drug</data>
+    </node>
+    <node id="atorvastatin">
+      <data key="d0">drug</data>
+    </node>
+    <node id="metoprolol">
+      <data key="d0">drug</data>
+    </node>
+    <node id="omeprazole">
+      <data key="d0">drug</data>
+    </node>
+    <node id="levothyroxine">
+      <data key="d0">drug</data>
+    </node>
+    <node id="amlodipine">
+      <data key="d0">drug</data>
+    </node>
+    <node id="diclofenac">
+      <data key="d0">drug</data>
+    </node>
+    <node id="ciprofloxacin">
+      <data key="d0">drug</data>
+    </node>
+    <node id="clopidogrel">
+      <data key="d0">drug</data>
+    </node>
+    <node id="glimepiride">
+      <data key="d0">drug</data>
+    </node>
+    <node id="losartan">
+      <data key="d0">drug</data>
+    </node>
+    <node id="escitalopram">
+      <data key="d0">drug</data>
+    </node>
+    <node id="CYP3A4">
+      <data key="d0">target</data>
+    </node>
+    <node id="CYP2D6">
+      <data key="d0">target</data>
+    </node>
+    <node id="CYP1A2">
+      <data key="d0">target</data>
+    </node>
+    <node id="COX1">
+      <data key="d0">target</data>
+    </node>
+    <node id="COX2">
+      <data key="d0">target</data>
+    </node>
+    <node id="P_glycoprotein">
+      <data key="d0">target</data>
+    </node>
+    <node id="GABA_receptor">
+      <data key="d0">target</data>
+    </node>
+    <node id="5HT_receptor">
+      <data key="d0">target</data>
+    </node>
+    <node id="NF_kB">
+      <data key="d0">target</data>
+    </node>
+    <node id="TNF_alpha">
+      <data key="d0">target</data>
+    </node>
+    <node id="IL6">
+      <data key="d0">target</data>
+    </node>
+    <node id="insulin_receptor">
+      <data key="d0">target</data>
+    </node>
+    <node id="ACE">
+      <data key="d0">target</data>
+    </node>
+    <node id="HMG_CoA_reductase">
+      <data key="d0">target</data>
+    </node>
+    <node id="platelet_aggregation">
+      <data key="d0">target</data>
+    </node>
+    <node id="thyroid_receptor">
+      <data key="d0">target</data>
+    </node>
+    <node id="calcium_channel">
+      <data key="d0">target</data>
+    </node>
+    <node id="proton_pump">
+      <data key="d0">target</data>
+    </node>
+    <node id="CYP2C9">
+      <data key="d0">target</data>
+    </node>
+    <node id="CYP2C19">
+      <data key="d0">target</data>
+    </node>
+    <node id="PPAR_gamma">
+      <data key="d0">target</data>
+    </node>
+    <node id="AMPK">
+      <data key="d0">target</data>
+    </node>
+    <node id="Nrf2">
+      <data key="d0">target</data>
+    </node>
+    <node id="VEGF">
+      <data key="d0">target</data>
+    </node>
+    <node id="angiotensin_II_receptor">
+      <data key="d0">target</data>
+    </node>
+    <node id="diabetes_type2">
+      <data key="d0">condition</data>
+    </node>
+    <node id="hypertension">
+      <data key="d0">condition</data>
+    </node>
+    <node id="inflammation">
+      <data key="d0">condition</data>
+    </node>
+    <node id="anxiety">
+      <data key="d0">condition</data>
+    </node>
+    <node id="hyperlipidemia">
+      <data key="d0">condition</data>
+    </node>
+    <node id="oxidative_stress">
+      <data key="d0">condition</data>
+    </node>
+    <edge source="curcumin" target="CYP3A4">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.7</data>
+    </edge>
+    <edge source="curcumin" target="NF_kB">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.9</data>
+    </edge>
+    <edge source="curcumin" target="COX2">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.6</data>
+    </edge>
+    <edge source="curcumin" target="TNF_alpha">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.8</data>
+    </edge>
+    <edge source="curcumin" target="Nrf2">
+      <data key="d1">activates</data>
+      <data key="d2">0.75</data>
+    </edge>
+    <edge source="curcumin" target="PPAR_gamma">
+      <data key="d1">activates</data>
+      <data key="d2">0.5</data>
+    </edge>
+    <edge source="curcumin" target="warfarin">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP3A4</data>
+      <data key="d2">0.75</data>
+    </edge>
+    <edge source="curcumin" target="atorvastatin">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP3A4</data>
+      <data key="d2">0.77</data>
+    </edge>
+    <edge source="curcumin" target="amlodipine">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP3A4</data>
+      <data key="d2">0.7</data>
+    </edge>
+    <edge source="curcumin" target="clopidogrel">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP3A4</data>
+      <data key="d2">0.55</data>
+    </edge>
+    <edge source="curcumin" target="losartan">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP3A4</data>
+      <data key="d2">0.55</data>
+    </edge>
+    <edge source="curcumin" target="escitalopram">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP3A4</data>
+      <data key="d2">0.5</data>
+    </edge>
+    <edge source="curcumin" target="aspirin">
+      <data key="d1">shared_target</data>
+      <data key="d3">COX2</data>
+      <data key="d2">0.55</data>
+    </edge>
+    <edge source="curcumin" target="diclofenac">
+      <data key="d1">shared_target</data>
+      <data key="d3">COX2</data>
+      <data key="d2">0.72</data>
+    </edge>
+    <edge source="withanolide_A" target="GABA_receptor">
+      <data key="d1">modulates</data>
+      <data key="d2">0.75</data>
+    </edge>
+    <edge source="withanolide_A" target="NF_kB">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.6</data>
+    </edge>
+    <edge source="withanolide_A" target="TNF_alpha">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.55</data>
+    </edge>
+    <edge source="nimbin" target="NF_kB">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.5</data>
+    </edge>
+    <edge source="nimbin" target="COX2">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.45</data>
+    </edge>
+    <edge source="nimbin" target="TNF_alpha">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.5</data>
+    </edge>
+    <edge source="nimbin" target="aspirin">
+      <data key="d1">shared_target</data>
+      <data key="d3">COX2</data>
+      <data key="d2">0.47</data>
+    </edge>
+    <edge source="nimbin" target="diclofenac">
+      <data key="d1">shared_target</data>
+      <data key="d3">COX2</data>
+      <data key="d2">0.65</data>
+    </edge>
+    <edge source="eugenol" target="COX1">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.55</data>
+    </edge>
+    <edge source="eugenol" target="COX2">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.6</data>
+    </edge>
+    <edge source="eugenol" target="GABA_receptor">
+      <data key="d1">modulates</data>
+      <data key="d2">0.35</data>
+    </edge>
+    <edge source="eugenol" target="aspirin">
+      <data key="d1">shared_target</data>
+      <data key="d3">COX1</data>
+      <data key="d2">0.75</data>
+    </edge>
+    <edge source="eugenol" target="diclofenac">
+      <data key="d1">shared_target</data>
+      <data key="d3">COX1</data>
+      <data key="d2">0.62</data>
+    </edge>
+    <edge source="gingerol" target="COX2">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.5</data>
+    </edge>
+    <edge source="gingerol" target="5HT_receptor">
+      <data key="d1">modulates</data>
+      <data key="d2">0.4</data>
+    </edge>
+    <edge source="gingerol" target="TNF_alpha">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.45</data>
+    </edge>
+    <edge source="gingerol" target="NF_kB">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.4</data>
+    </edge>
+    <edge source="gingerol" target="aspirin">
+      <data key="d1">shared_target</data>
+      <data key="d3">COX2</data>
+      <data key="d2">0.5</data>
+    </edge>
+    <edge source="gingerol" target="diclofenac">
+      <data key="d1">shared_target</data>
+      <data key="d3">COX2</data>
+      <data key="d2">0.68</data>
+    </edge>
+    <edge source="gingerol" target="sertraline">
+      <data key="d1">shared_target</data>
+      <data key="d3">5HT_receptor</data>
+      <data key="d2">0.65</data>
+    </edge>
+    <edge source="gingerol" target="escitalopram">
+      <data key="d1">shared_target</data>
+      <data key="d3">5HT_receptor</data>
+      <data key="d2">0.65</data>
+    </edge>
+    <edge source="bacoside_A" target="5HT_receptor">
+      <data key="d1">modulates</data>
+      <data key="d2">0.7</data>
+    </edge>
+    <edge source="bacoside_A" target="GABA_receptor">
+      <data key="d1">modulates</data>
+      <data key="d2">0.5</data>
+    </edge>
+    <edge source="bacoside_A" target="sertraline">
+      <data key="d1">shared_target</data>
+      <data key="d3">5HT_receptor</data>
+      <data key="d2">0.8</data>
+    </edge>
+    <edge source="bacoside_A" target="escitalopram">
+      <data key="d1">shared_target</data>
+      <data key="d3">5HT_receptor</data>
+      <data key="d2">0.8</data>
+    </edge>
+    <edge source="ascorbic_acid" target="NF_kB">
+      <data key="d1">modulates</data>
+      <data key="d2">0.3</data>
+    </edge>
+    <edge source="ascorbic_acid" target="Nrf2">
+      <data key="d1">activates</data>
+      <data key="d2">0.6</data>
+    </edge>
+    <edge source="allicin" target="platelet_aggregation">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.7</data>
+    </edge>
+    <edge source="allicin" target="HMG_CoA_reductase">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.4</data>
+    </edge>
+    <edge source="allicin" target="NF_kB">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.5</data>
+    </edge>
+    <edge source="allicin" target="CYP2C9">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.35</data>
+    </edge>
+    <edge source="allicin" target="atorvastatin">
+      <data key="d1">shared_target</data>
+      <data key="d3">HMG_CoA_reductase</data>
+      <data key="d2">0.65</data>
+    </edge>
+    <edge source="allicin" target="aspirin">
+      <data key="d1">shared_target</data>
+      <data key="d3">platelet_aggregation</data>
+      <data key="d2">0.8</data>
+    </edge>
+    <edge source="allicin" target="clopidogrel">
+      <data key="d1">shared_target</data>
+      <data key="d3">platelet_aggregation</data>
+      <data key="d2">0.8</data>
+    </edge>
+    <edge source="allicin" target="warfarin">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP2C9</data>
+      <data key="d2">0.62</data>
+    </edge>
+    <edge source="allicin" target="diclofenac">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP2C9</data>
+      <data key="d2">0.55</data>
+    </edge>
+    <edge source="allicin" target="glimepiride">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP2C9</data>
+      <data key="d2">0.52</data>
+    </edge>
+    <edge source="allicin" target="losartan">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP2C9</data>
+      <data key="d2">0.57</data>
+    </edge>
+    <edge source="cinnamaldehyde" target="insulin_receptor">
+      <data key="d1">modulates</data>
+      <data key="d2">0.5</data>
+    </edge>
+    <edge source="cinnamaldehyde" target="PPAR_gamma">
+      <data key="d1">activates</data>
+      <data key="d2">0.45</data>
+    </edge>
+    <edge source="cinnamaldehyde" target="Nrf2">
+      <data key="d1">activates</data>
+      <data key="d2">0.5</data>
+    </edge>
+    <edge source="cinnamaldehyde" target="metformin">
+      <data key="d1">shared_target</data>
+      <data key="d3">insulin_receptor</data>
+      <data key="d2">0.7</data>
+    </edge>
+    <edge source="cinnamaldehyde" target="glimepiride">
+      <data key="d1">shared_target</data>
+      <data key="d3">insulin_receptor</data>
+      <data key="d2">0.65</data>
+    </edge>
+    <edge source="gymnemic_acid" target="insulin_receptor">
+      <data key="d1">modulates</data>
+      <data key="d2">0.65</data>
+    </edge>
+    <edge source="gymnemic_acid" target="AMPK">
+      <data key="d1">activates</data>
+      <data key="d2">0.5</data>
+    </edge>
+    <edge source="gymnemic_acid" target="metformin">
+      <data key="d1">shared_target</data>
+      <data key="d3">insulin_receptor</data>
+      <data key="d2">0.78</data>
+    </edge>
+    <edge source="gymnemic_acid" target="glimepiride">
+      <data key="d1">shared_target</data>
+      <data key="d3">insulin_receptor</data>
+      <data key="d2">0.73</data>
+    </edge>
+    <edge source="piperine" target="CYP3A4">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.85</data>
+    </edge>
+    <edge source="piperine" target="P_glycoprotein">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.8</data>
+    </edge>
+    <edge source="piperine" target="CYP2C9">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.6</data>
+    </edge>
+    <edge source="piperine" target="CYP1A2">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.5</data>
+    </edge>
+    <edge source="piperine" target="warfarin">
+      <data key="d1">enhances_absorption</data>
+      <data key="d3">CYP3A4</data>
+      <data key="d2">0.8</data>
+    </edge>
+    <edge source="piperine" target="atorvastatin">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP3A4</data>
+      <data key="d2">0.85</data>
+    </edge>
+    <edge source="piperine" target="amlodipine">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP3A4</data>
+      <data key="d2">0.77</data>
+    </edge>
+    <edge source="piperine" target="clopidogrel">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP3A4</data>
+      <data key="d2">0.62</data>
+    </edge>
+    <edge source="piperine" target="losartan">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP3A4</data>
+      <data key="d2">0.62</data>
+    </edge>
+    <edge source="piperine" target="escitalopram">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP3A4</data>
+      <data key="d2">0.57</data>
+    </edge>
+    <edge source="piperine" target="omeprazole">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP1A2</data>
+      <data key="d2">0.4</data>
+    </edge>
+    <edge source="piperine" target="ciprofloxacin">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP1A2</data>
+      <data key="d2">0.55</data>
+    </edge>
+    <edge source="piperine" target="diclofenac">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP2C9</data>
+      <data key="d2">0.68</data>
+    </edge>
+    <edge source="piperine" target="glimepiride">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP2C9</data>
+      <data key="d2">0.65</data>
+    </edge>
+    <edge source="quercetin" target="CYP3A4">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.4</data>
+    </edge>
+    <edge source="quercetin" target="CYP1A2">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.5</data>
+    </edge>
+    <edge source="quercetin" target="NF_kB">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.6</data>
+    </edge>
+    <edge source="quercetin" target="Nrf2">
+      <data key="d1">activates</data>
+      <data key="d2">0.65</data>
+    </edge>
+    <edge source="quercetin" target="VEGF">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.4</data>
+    </edge>
+    <edge source="quercetin" target="warfarin">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP3A4</data>
+      <data key="d2">0.6</data>
+    </edge>
+    <edge source="quercetin" target="atorvastatin">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP3A4</data>
+      <data key="d2">0.62</data>
+    </edge>
+    <edge source="quercetin" target="amlodipine">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP3A4</data>
+      <data key="d2">0.55</data>
+    </edge>
+    <edge source="quercetin" target="clopidogrel">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP3A4</data>
+      <data key="d2">0.4</data>
+    </edge>
+    <edge source="quercetin" target="losartan">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP3A4</data>
+      <data key="d2">0.4</data>
+    </edge>
+    <edge source="quercetin" target="escitalopram">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP3A4</data>
+      <data key="d2">0.35</data>
+    </edge>
+    <edge source="quercetin" target="omeprazole">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP1A2</data>
+      <data key="d2">0.4</data>
+    </edge>
+    <edge source="quercetin" target="ciprofloxacin">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP1A2</data>
+      <data key="d2">0.55</data>
+    </edge>
+    <edge source="berberine" target="insulin_receptor">
+      <data key="d1">activates</data>
+      <data key="d2">0.7</data>
+    </edge>
+    <edge source="berberine" target="CYP3A4">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.6</data>
+    </edge>
+    <edge source="berberine" target="CYP2D6">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.5</data>
+    </edge>
+    <edge source="berberine" target="AMPK">
+      <data key="d1">activates</data>
+      <data key="d2">0.8</data>
+    </edge>
+    <edge source="berberine" target="PPAR_gamma">
+      <data key="d1">activates</data>
+      <data key="d2">0.55</data>
+    </edge>
+    <edge source="berberine" target="warfarin">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP3A4</data>
+      <data key="d2">0.7</data>
+    </edge>
+    <edge source="berberine" target="atorvastatin">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP3A4</data>
+      <data key="d2">0.72</data>
+    </edge>
+    <edge source="berberine" target="amlodipine">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP3A4</data>
+      <data key="d2">0.65</data>
+    </edge>
+    <edge source="berberine" target="clopidogrel">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP3A4</data>
+      <data key="d2">0.5</data>
+    </edge>
+    <edge source="berberine" target="losartan">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP3A4</data>
+      <data key="d2">0.5</data>
+    </edge>
+    <edge source="berberine" target="escitalopram">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP3A4</data>
+      <data key="d2">0.45</data>
+    </edge>
+    <edge source="berberine" target="sertraline">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP2D6</data>
+      <data key="d2">0.6</data>
+    </edge>
+    <edge source="berberine" target="metoprolol">
+      <data key="d1">shared_target</data>
+      <data key="d3">CYP2D6</data>
+      <data key="d2">0.65</data>
+    </edge>
+    <edge source="berberine" target="metformin">
+      <data key="d1">shared_target</data>
+      <data key="d3">insulin_receptor</data>
+      <data key="d2">0.8</data>
+    </edge>
+    <edge source="berberine" target="glimepiride">
+      <data key="d1">shared_target</data>
+      <data key="d3">insulin_receptor</data>
+      <data key="d2">0.75</data>
+    </edge>
+    <edge source="ashwagandhanolide" target="GABA_receptor">
+      <data key="d1">modulates</data>
+      <data key="d2">0.8</data>
+    </edge>
+    <edge source="ashwagandhanolide" target="5HT_receptor">
+      <data key="d1">modulates</data>
+      <data key="d2">0.5</data>
+    </edge>
+    <edge source="ashwagandhanolide" target="NF_kB">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.55</data>
+    </edge>
+    <edge source="ashwagandhanolide" target="sertraline">
+      <data key="d1">shared_target</data>
+      <data key="d3">5HT_receptor</data>
+      <data key="d2">0.7</data>
+    </edge>
+    <edge source="ashwagandhanolide" target="escitalopram">
+      <data key="d1">shared_target</data>
+      <data key="d3">5HT_receptor</data>
+      <data key="d2">0.7</data>
+    </edge>
+    <edge source="neem_limonoid" target="TNF_alpha">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.55</data>
+    </edge>
+    <edge source="neem_limonoid" target="NF_kB">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.5</data>
+    </edge>
+    <edge source="moringin" target="NF_kB">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.7</data>
+    </edge>
+    <edge source="moringin" target="Nrf2">
+      <data key="d1">activates</data>
+      <data key="d2">0.8</data>
+    </edge>
+    <edge source="moringin" target="TNF_alpha">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.6</data>
+    </edge>
+    <edge source="diosgenin" target="PPAR_gamma">
+      <data key="d1">activates</data>
+      <data key="d2">0.6</data>
+    </edge>
+    <edge source="diosgenin" target="insulin_receptor">
+      <data key="d1">modulates</data>
+      <data key="d2">0.5</data>
+    </edge>
+    <edge source="diosgenin" target="NF_kB">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.45</data>
+    </edge>
+    <edge source="diosgenin" target="metformin">
+      <data key="d1">shared_target</data>
+      <data key="d3">insulin_receptor</data>
+      <data key="d2">0.7</data>
+    </edge>
+    <edge source="diosgenin" target="glimepiride">
+      <data key="d1">shared_target</data>
+      <data key="d3">insulin_receptor</data>
+      <data key="d2">0.65</data>
+    </edge>
+    <edge source="asiaticoside" target="VEGF">
+      <data key="d1">modulates</data>
+      <data key="d2">0.6</data>
+    </edge>
+    <edge source="asiaticoside" target="COX2">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.4</data>
+    </edge>
+    <edge source="asiaticoside" target="NF_kB">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.5</data>
+    </edge>
+    <edge source="asiaticoside" target="aspirin">
+      <data key="d1">shared_target</data>
+      <data key="d3">COX2</data>
+      <data key="d2">0.45</data>
+    </edge>
+    <edge source="asiaticoside" target="diclofenac">
+      <data key="d1">shared_target</data>
+      <data key="d3">COX2</data>
+      <data key="d2">0.62</data>
+    </edge>
+    <edge source="sennoside_A" target="proton_pump">
+      <data key="d1">modulates</data>
+      <data key="d2">0.4</data>
+    </edge>
+    <edge source="sennoside_A" target="omeprazole">
+      <data key="d1">shared_target</data>
+      <data key="d3">proton_pump</data>
+      <data key="d2">0.65</data>
+    </edge>
+    <edge source="gallic_acid" target="Nrf2">
+      <data key="d1">activates</data>
+      <data key="d2">0.7</data>
+    </edge>
+    <edge source="gallic_acid" target="NF_kB">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.55</data>
+    </edge>
+    <edge source="gallic_acid" target="COX2">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.4</data>
+    </edge>
+    <edge source="gallic_acid" target="aspirin">
+      <data key="d1">shared_target</data>
+      <data key="d3">COX2</data>
+      <data key="d2">0.45</data>
+    </edge>
+    <edge source="gallic_acid" target="diclofenac">
+      <data key="d1">shared_target</data>
+      <data key="d3">COX2</data>
+      <data key="d2">0.62</data>
+    </edge>
+    <edge source="catechin" target="VEGF">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.5</data>
+    </edge>
+    <edge source="catechin" target="NF_kB">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.5</data>
+    </edge>
+    <edge source="catechin" target="HMG_CoA_reductase">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.35</data>
+    </edge>
+    <edge source="catechin" target="atorvastatin">
+      <data key="d1">shared_target</data>
+      <data key="d3">HMG_CoA_reductase</data>
+      <data key="d2">0.62</data>
+    </edge>
+    <edge source="rosmarinic_acid" target="COX2">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.55</data>
+    </edge>
+    <edge source="rosmarinic_acid" target="NF_kB">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.5</data>
+    </edge>
+    <edge source="rosmarinic_acid" target="5HT_receptor">
+      <data key="d1">modulates</data>
+      <data key="d2">0.35</data>
+    </edge>
+    <edge source="rosmarinic_acid" target="aspirin">
+      <data key="d1">shared_target</data>
+      <data key="d3">COX2</data>
+      <data key="d2">0.53</data>
+    </edge>
+    <edge source="rosmarinic_acid" target="diclofenac">
+      <data key="d1">shared_target</data>
+      <data key="d3">COX2</data>
+      <data key="d2">0.7</data>
+    </edge>
+    <edge source="rosmarinic_acid" target="sertraline">
+      <data key="d1">shared_target</data>
+      <data key="d3">5HT_receptor</data>
+      <data key="d2">0.62</data>
+    </edge>
+    <edge source="rosmarinic_acid" target="escitalopram">
+      <data key="d1">shared_target</data>
+      <data key="d3">5HT_receptor</data>
+      <data key="d2">0.62</data>
+    </edge>
+    <edge source="ursolic_acid" target="NF_kB">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.6</data>
+    </edge>
+    <edge source="ursolic_acid" target="COX2">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.5</data>
+    </edge>
+    <edge source="ursolic_acid" target="PPAR_gamma">
+      <data key="d1">activates</data>
+      <data key="d2">0.45</data>
+    </edge>
+    <edge source="ursolic_acid" target="aspirin">
+      <data key="d1">shared_target</data>
+      <data key="d3">COX2</data>
+      <data key="d2">0.5</data>
+    </edge>
+    <edge source="ursolic_acid" target="diclofenac">
+      <data key="d1">shared_target</data>
+      <data key="d3">COX2</data>
+      <data key="d2">0.68</data>
+    </edge>
+    <edge source="metformin" target="insulin_receptor">
+      <data key="d1">activates</data>
+      <data key="d2">0.9</data>
+    </edge>
+    <edge source="metformin" target="AMPK">
+      <data key="d1">activates</data>
+      <data key="d2">0.85</data>
+    </edge>
+    <edge source="aspirin" target="COX1">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.95</data>
+    </edge>
+    <edge source="aspirin" target="COX2">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.5</data>
+    </edge>
+    <edge source="aspirin" target="platelet_aggregation">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.9</data>
+    </edge>
+    <edge source="warfarin" target="CYP3A4">
+      <data key="d1">substrate</data>
+      <data key="d2">0.8</data>
+    </edge>
+    <edge source="warfarin" target="CYP2D6">
+      <data key="d1">substrate</data>
+      <data key="d2">0.4</data>
+    </edge>
+    <edge source="warfarin" target="CYP2C9">
+      <data key="d1">substrate</data>
+      <data key="d2">0.9</data>
+    </edge>
+    <edge source="sertraline" target="5HT_receptor">
+      <data key="d1">modulates</data>
+      <data key="d2">0.9</data>
+    </edge>
+    <edge source="sertraline" target="CYP2D6">
+      <data key="d1">substrate</data>
+      <data key="d2">0.7</data>
+    </edge>
+    <edge source="sertraline" target="CYP2C19">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.4</data>
+    </edge>
+    <edge source="lisinopril" target="ACE">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.95</data>
+    </edge>
+    <edge source="atorvastatin" target="HMG_CoA_reductase">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.9</data>
+    </edge>
+    <edge source="atorvastatin" target="CYP3A4">
+      <data key="d1">substrate</data>
+      <data key="d2">0.85</data>
+    </edge>
+    <edge source="metoprolol" target="CYP2D6">
+      <data key="d1">substrate</data>
+      <data key="d2">0.8</data>
+    </edge>
+    <edge source="omeprazole" target="proton_pump">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.9</data>
+    </edge>
+    <edge source="omeprazole" target="CYP1A2">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.3</data>
+    </edge>
+    <edge source="omeprazole" target="CYP2C19">
+      <data key="d1">substrate</data>
+      <data key="d2">0.7</data>
+    </edge>
+    <edge source="levothyroxine" target="thyroid_receptor">
+      <data key="d1">activates</data>
+      <data key="d2">0.85</data>
+    </edge>
+    <edge source="amlodipine" target="calcium_channel">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.9</data>
+    </edge>
+    <edge source="amlodipine" target="CYP3A4">
+      <data key="d1">substrate</data>
+      <data key="d2">0.7</data>
+    </edge>
+    <edge source="diclofenac" target="COX1">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.7</data>
+    </edge>
+    <edge source="diclofenac" target="COX2">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.85</data>
+    </edge>
+    <edge source="diclofenac" target="CYP2C9">
+      <data key="d1">substrate</data>
+      <data key="d2">0.75</data>
+    </edge>
+    <edge source="ciprofloxacin" target="CYP1A2">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.6</data>
+    </edge>
+    <edge source="clopidogrel" target="platelet_aggregation">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.9</data>
+    </edge>
+    <edge source="clopidogrel" target="CYP2C19">
+      <data key="d1">substrate</data>
+      <data key="d2">0.85</data>
+    </edge>
+    <edge source="clopidogrel" target="CYP3A4">
+      <data key="d1">substrate</data>
+      <data key="d2">0.4</data>
+    </edge>
+    <edge source="glimepiride" target="insulin_receptor">
+      <data key="d1">activates</data>
+      <data key="d2">0.8</data>
+    </edge>
+    <edge source="glimepiride" target="CYP2C9">
+      <data key="d1">substrate</data>
+      <data key="d2">0.7</data>
+    </edge>
+    <edge source="losartan" target="angiotensin_II_receptor">
+      <data key="d1">inhibits</data>
+      <data key="d2">0.9</data>
+    </edge>
+    <edge source="losartan" target="CYP2C9">
+      <data key="d1">substrate</data>
+      <data key="d2">0.8</data>
+    </edge>
+    <edge source="losartan" target="CYP3A4">
+      <data key="d1">substrate</data>
+      <data key="d2">0.4</data>
+    </edge>
+    <edge source="escitalopram" target="5HT_receptor">
+      <data key="d1">modulates</data>
+      <data key="d2">0.9</data>
+    </edge>
+    <edge source="escitalopram" target="CYP2C19">
+      <data key="d1">substrate</data>
+      <data key="d2">0.6</data>
+    </edge>
+    <edge source="escitalopram" target="CYP3A4">
+      <data key="d1">substrate</data>
+      <data key="d2">0.3</data>
+    </edge>
+    <edge source="diabetes_type2" target="insulin_receptor">
+      <data key="d1">involves</data>
+      <data key="d2">0.9</data>
+    </edge>
+    <edge source="diabetes_type2" target="AMPK">
+      <data key="d1">involves</data>
+      <data key="d2">0.8</data>
+    </edge>
+    <edge source="diabetes_type2" target="PPAR_gamma">
+      <data key="d1">involves</data>
+      <data key="d2">0.7</data>
+    </edge>
+    <edge source="hypertension" target="ACE">
+      <data key="d1">involves</data>
+      <data key="d2">0.9</data>
+    </edge>
+    <edge source="hypertension" target="angiotensin_II_receptor">
+      <data key="d1">involves</data>
+      <data key="d2">0.85</data>
+    </edge>
+    <edge source="hypertension" target="calcium_channel">
+      <data key="d1">involves</data>
+      <data key="d2">0.8</data>
+    </edge>
+    <edge source="inflammation" target="COX2">
+      <data key="d1">involves</data>
+      <data key="d2">0.9</data>
+    </edge>
+    <edge source="inflammation" target="NF_kB">
+      <data key="d1">involves</data>
+      <data key="d2">0.9</data>
+    </edge>
+    <edge source="inflammation" target="TNF_alpha">
+      <data key="d1">involves</data>
+      <data key="d2">0.85</data>
+    </edge>
+    <edge source="inflammation" target="IL6">
+      <data key="d1">involves</data>
+      <data key="d2">0.8</data>
+    </edge>
+    <edge source="anxiety" target="GABA_receptor">
+      <data key="d1">involves</data>
+      <data key="d2">0.9</data>
+    </edge>
+    <edge source="anxiety" target="5HT_receptor">
+      <data key="d1">involves</data>
+      <data key="d2">0.85</data>
+    </edge>
+    <edge source="hyperlipidemia" target="HMG_CoA_reductase">
+      <data key="d1">involves</data>
+      <data key="d2">0.9</data>
+    </edge>
+    <edge source="oxidative_stress" target="Nrf2">
+      <data key="d1">involves</data>
+      <data key="d2">0.9</data>
+    </edge>
+    <edge source="oxidative_stress" target="NF_kB">
+      <data key="d1">involves</data>
+      <data key="d2">0.7</data>
+    </edge>
+  </graph>
+</graphml>

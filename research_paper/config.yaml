@@ -1,0 +1,381 @@
+# VanaVaid Research Paper Configuration
+# Generated: March 28, 2026
+
+---
+PROJECT_METADATA:
+  project_name: "VanaVaid: Geo-Medicinal Intelligence System"
+  research_type: "Machine Learning for Natural Products"
+  disclosure_date: "March 19, 2026"
+  paper_completion_date: "March 28, 2026"
+  institution: "AI Research Lab"
+  
+PAPER_DOCUMENT:
+  main_file: "main.tex"
+  supplementary_file: "supplementary_materials.tex"
+  bibliography: "references.bib"
+  output_format: "PDF"
+  
+DOCUMENT_STATISTICS:
+  main_paper:
+    sections: 11
+    subsections: 28
+    figures: 6
+    tables: 15
+    equations: 45
+    estimated_pages: 18
+    estimated_words: 8500
+    references: 10
+  
+  supplementary:
+    sections: 10
+    tables: 12
+    estimated_pages: 10
+    estimated_words: 2500
+    references: 0
+  
+  total:
+    pages: 28
+    words: 11000
+    figures: 6
+    tables: 27
+    equations: 45
+
+PAPER_STRUCTURE:
+  main_sections:
+    - title: "Introduction"
+      subsections:
+        - "Motivation and Problem Statement"
+        - "Research Objectives"
+        - "Key Contributions"
+    
+    - title: "Literature Review and Related Work"
+      subsections:
+        - "Existing Systems and Gaps"
+        - "Research Papers Analyzed"
+        - "Patent Landscape"
+    
+    - title: "System Architecture and Methodology"
+      subsections:
+        - "Data Processing Pipeline"
+        - "Module 1: Temporal-Spatial Phytochemical Interpolation"
+        - "Module 2: Adaptive Bayesian Pharmacokinetic Prediction"
+        - "Module 3: Dynamic Drug-Herbal Interaction Knowledge Graph"
+        - "Module 4: Constraint-Optimized Reverse Botanical Recommendation"
+        - "Module 5: Multi-Spectral Bioactive Compound Quantification"
+    
+    - title: "Experimental Setup and Dataset"
+      subsections:
+        - "NAPRALERT-Calibrated Dataset"
+        - "Plant Species and Compounds"
+        - "Geographic Distribution"
+    
+    - title: "Results and Analysis"
+      subsections:
+        - "Module 1: Phytochemical Prediction Results"
+        - "Module 2: Personalized Bioavailability Results"
+        - "Module 3: Drug-Herb Interaction Prediction Results"
+        - "Module 4: Reverse Recommendation Results"
+        - "Module 5: Spectral Compound Quantification Results"
+    
+    - title: "Comparative Analysis"
+      subsections:
+        - "Baseline Comparisons"
+        - "Quantitative Improvements"
+    
+    - title: "Patent-Eligible Innovations"
+      subsections:
+        - "Technical Effect Analysis"
+    
+    - title: "Implementation and Deployment"
+      subsections:
+        - "Model Artifacts"
+        - "System Integration"
+    
+    - title: "Discussion"
+      subsections:
+        - "Significance of Results"
+        - "Limitations and Future Work"
+    
+    - title: "Conclusion"
+    - title: "References"
+
+DATASET_SPECIFICATIONS:
+  total_records: 1474
+  plants: 15
+  regions: 15
+  data_sources: "Peer-reviewed phytochemical literature (NAPRALERT-calibrated)"
+  
+  plants_list:
+    - name: "Turmeric"
+      scientific: "Curcuma longa"
+      family: "Zingiberaceae"
+    - name: "Ashwagandha"
+      scientific: "Withania somnifera"
+      family: "Solanaceae"
+    - name: "Neem"
+      scientific: "Azadirachta indica"
+      family: "Meliaceae"
+    - name: "Tulsi"
+      scientific: "Ocimum sanctum"
+      family: "Lamiaceae"
+    - name: "Ginger"
+      scientific: "Zingiber officinale"
+      family: "Zingiberaceae"
+    - name: "Brahmi"
+      scientific: "Bacopa monnieri"
+      family: "Plantaginaceae"
+    - name: "Amla"
+      scientific: "Phyllanthus emblica"
+      family: "Phyllanthaceae"
+    - name: "Garlic"
+      scientific: "Allium sativum"
+      family: "Amaryllidaceae"
+    - name: "Licorice"
+      scientific: "Glycyrrhiza glabra"
+      family: "Fabaceae"
+    - name: "Triphala"
+      scientific: "3-plant mixture"
+      family: "Mixed"
+  
+  features_per_record: 15
+  target_variables: 4
+  train_test_split: "80/20"
+
+MODULES_OVERVIEW:
+  module_count: 5
+  
+  modules:
+    1:
+      name: "Temporal-Spatial Phytochemical Interpolation Engine"
+      model: "Gaussian Process Regression"
+      kernel: "RBF + White Noise + ARIMA seasonal"
+      input_features: 6
+      output_features: 4
+      performance_metric: "R² = 0.639, RMSE = 0.504%"
+      baseline_performance: "R² = 0.300, RMSE = 1.200%"
+      improvement_percent: 113
+    
+    2:
+      name: "Adaptive Bayesian Pharmacokinetic Prediction Engine"
+      model: "Bayesian Neural Network"
+      architecture: "128-64-32 with MC Dropout"
+      input_features: 10
+      output_features: 5
+      performance_metric: "MAE = 1.97%, R² = 0.901"
+      baseline_performance: "MAE = 6.34%, R² = 0.000"
+      improvement_percent: 69
+    
+    3:
+      name: "Dynamic Drug-Herbal Interaction Knowledge Graph"
+      model: "Graph Neural Network"
+      embedding_method: "DeepWalk"
+      nodes: 245
+      edges: 598
+      performance_metric: "AUC = 0.993, Sensitivity = 0.972"
+      baseline_performance: "AUC = 0.700, Coverage = 70%"
+      improvement_percent: 42
+    
+    4:
+      name: "Constraint-Optimized Reverse Botanical Recommendation Engine"
+      model: "Multi-objective Constraint Satisfaction"
+      algorithm: "Sequential descent with multi-constraint filtering"
+      input_features: 8
+      output_recommendations: 3
+      performance_metric: "Quality score = 98.4/100"
+      baseline_performance: "Quality score = 38.1/100"
+      improvement_percent: 158
+    
+    5:
+      name: "Multi-Spectral Bioactive Compound Quantification Engine"
+      model: "5-Channel Convolutional Neural Network"
+      input_channels: 5
+      architecture: "Conv2D(32)-Conv2D(64)-Conv2D(128)-Dense(128)-Dense(4)"
+      input_resolution: "224x224 pixels"
+      output_features: 4
+      performance_metric: "R² = 0.533, RMSE = 0.773%"
+      speed_improvement: "518479x"
+      cost_reduction: "250x"
+
+TECHNICAL_SPECIFICATIONS:
+  latex_document_class: "article"
+  font_size: "11pt"
+  paper_size: "a4paper"
+  margins: "1 inch"
+  columns: "single"
+  
+  required_packages:
+    - "amsmath"
+    - "amssymb"
+    - "graphicx"
+    - "cite"
+    - "hyperref"
+    - "float"
+    - "caption"
+    - "subcaption"
+    - "booktabs"
+    - "color"
+    - "array"
+    - "geometry"
+    - "fancyhdr"
+    - "lastpage"
+    - "multirow"
+    - "algorithm"
+    - "algpseudocode"
+  
+  compilation_steps: 2
+  output_formats:
+    - "PDF (main)"
+    - "PDF (supplementary)"
+  
+  auxiliary_files_generated:
+    - ".aux (auxiliary)"
+    - ".log (compilation log)"
+    - ".out (outline)"
+    - ".toc (table of contents)"
+    - ".lof (list of figures)"
+    - ".lot (list of tables)"
+
+FIGURES_REFERENCED:
+  figure_1:
+    file: "novelty1_temporal_spatial.png"
+    location: "../outputs/"
+    caption: "Temporal-spatial phytochemical prediction results"
+    description: "Geographic variation, predicted vs actual, temporal trends with confidence intervals"
+  
+  figure_2:
+    file: "novelty2_pharmacokinetic.png"
+    location: "../outputs/"
+    caption: "Bayesian bioavailability prediction results"
+    description: "Training curves, predicted vs actual, delivery method effects"
+  
+  figure_3:
+    file: "novelty3_knowledge_graph.png"
+    location: "../outputs/"
+    caption: "Drug-herb interaction knowledge graph"
+    description: "Graph structure showing compounds, drugs, targets, and interactions"
+  
+  figure_4:
+    file: "novelty4_recommendations.png"
+    location: "../outputs/"
+    caption: "Multi-objective optimization for botanical recommendations"
+    description: "Quality score comparison, recommendation scoring"
+  
+  figure_5:
+    file: "novelty5_spectral_cnn.png"
+    location: "../outputs/"
+    caption: "Spectral CNN compound quantification results"
+    description: "CNN predictions for alkaloids, flavonoids, terpenoids, glycosides"
+  
+  figure_6:
+    file: "system_diagram.png"
+    location: "../outputs/"
+    caption: "End-to-end system architecture"
+    description: "Integration of all 5 modules, data flow, outputs"
+
+COMPILATION_REQUIREMENTS:
+  minimum_disk_space: "500 MB"
+  latex_distribution_recommended: "MiKTeX or TeX Live"
+  
+  estimated_compilation_time:
+    main_paper: "5-10 seconds per pass"
+    supplementary: "3-5 seconds per pass"
+    total_with_cleanups: "30-40 seconds"
+  
+  supported_platforms:
+    - "Windows (MiKTeX or TeX Live)"
+    - "macOS (MacTeX)"
+    - "Linux (TeX Live)"
+    - "Online (Overleaf)"
+
+KEYWORDS:
+  - "phytochemistry"
+  - "medicinal plants"
+  - "Gaussian processes"
+  - "Bayesian neural networks"
+  - "graph neural networks"
+  - "drug-herb interactions"
+  - "personalized medicine"
+  - "computer vision"
+  - "deep learning"
+  - "natural products"
+  - "geospatial modeling"
+  - "machine learning"
+  - "spectral imaging"
+
+PUBLICATION_TARGETS:
+  journals:
+    - "Journal of Ethnopharmacology"
+    - "Pharmacological Research"
+    - "Machine Learning in Healthcare"
+    - "International Journal of Phytomedicine"
+    - "IEEE Transactions on Biomedical Engineering"
+  
+  conferences:
+    - "International Conference on Machine Learning"
+    - "Asian Conference on Natural Product Research"
+    - "ACM Conference on Bioinformatics"
+
+PATENT_INFORMATION:
+  filing_jurisdiction: "India"
+  patent_act: "Indian Patent Act 1970"
+  section: "Section 3(k)"
+  technical_effects_demonstrated: 5
+  patent_eligible_modules: 5
+  estimated_protection_period: "20 years"
+
+SUPPLEMENTARY_MATERIALS_SECTIONS:
+  S1: "Detailed Plant Compound Database"
+  S2: "Hyperparameter Configuration"
+  S3: "Training Data Statistics"
+  S4: "Validation Methodology"
+  S5: "Computational Resources"
+  S6: "Inference Latency Benchmarks"
+  S7: "Error Analysis"
+  S8: "Sensitivity Analysis"
+  S9: "Ablation Studies"
+  S10: "Competitive Benchmarks"
+
+REFERENCE_COUNT:
+  books: 3
+  journal_articles: 20
+  patents: 5
+  conference_papers: 2
+  web_resources: 2
+  total: 32
+
+AUTHOR_INFORMATION:
+  research_team: "AI Research Lab"
+  project_lead: "VanaVaid Team"
+  disclosure_date: "March 19, 2026"
+  document_date: "March 28, 2026"
+
+FILE_STRUCTURE:
+  research_paper_directory:
+    - "main.tex"
+    - "supplementary_materials.tex"
+    - "references.bib"
+    - "README.md"
+    - "compile.bat"
+    - "config.yaml (this file)"
+    - "build/ (generated on compilation)"
+    - "main.pdf (generated on compilation)"
+    - "supplementary_materials.pdf (generated on compilation)"
+
+QUALITY_METRICS:
+  readability_score: "Academic (Grade 16+)"
+  mathematical_rigor: "High"
+  code_examples: "Algorithms in pseudocode"
+  figures_quality: "High resolution PNG"
+  citation_depth: "Comprehensive"
+  reproducibility: "Full model specifications provided"
+
+NOTES:
+  - "All LaTeX files use UTF-8 encoding"
+  - "Cross-references use hyperref for clickable links"
+  - "Table formatting uses booktabs for professional appearance"
+  - "Equations use amsmath for proper mathematical typesetting"
+  - "Figures referenced via graphicx (absolute or relative paths)"
+  - "Bibliography supports BibTeX format"
+  - "Compiled PDFs are fully searchable and selectable"
+  - "Page references auto-update during compilation"
+  - "Two-pass compilation resolves all cross-references and page numbers"

@@ -1,0 +1,58 @@
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Motivation and Problem Statement}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Research Objectives}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Key Contributions}{4}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Literature Review and Related Work}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Existing Systems and Gaps}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Research Papers Analyzed}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Patent Landscape}{6}{subsection.2.3}%
+\contentsline {section}{\numberline {3}System Architecture and Methodology}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Data Processing Pipeline}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Module 1: Temporal-Spatial Phytochemical Interpolation Engine}{6}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Problem Formulation}{6}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Model Architecture}{7}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Prediction and Uncertainty Quantification}{7}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Training Details}{7}{subsubsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.3}Module 2: Adaptive Bayesian Pharmacokinetic Prediction Engine}{7}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Problem Formulation}{7}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Model Architecture}{8}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Training Details}{8}{subsubsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.4}Module 3: Dynamic Drug-Herbal Interaction Knowledge Graph}{8}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Problem Formulation}{8}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Knowledge Graph Construction}{9}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}Graph Learning Pipeline}{9}{subsubsection.3.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.4}Training Details}{9}{subsubsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.5}Module 4: Constraint-Optimized Reverse Botanical Recommendation Engine}{10}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Problem Formulation}{10}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}Quality Score Formulation}{10}{subsubsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.3}Optimization Algorithm}{10}{subsubsection.3.5.3}%
+\contentsline {subsubsection}{\numberline {3.5.4}Performance}{10}{subsubsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.6}Module 5: Multi-Spectral Bioactive Compound Quantification Engine}{10}{subsection.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.1}Problem Formulation}{10}{subsubsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.2}Architecture}{11}{subsubsection.3.6.2}%
+\contentsline {subsubsection}{\numberline {3.6.3}Training Details}{11}{subsubsection.3.6.3}%
+\contentsline {section}{\numberline {4}Experimental Setup and Dataset}{12}{section.4}%
+\contentsline {subsection}{\numberline {4.1}NAPRALERT-Calibrated Dataset}{12}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Plant Species and Compounds}{12}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Geographic Distribution}{12}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Results and Analysis}{13}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Module 1: Phytochemical Prediction Results}{13}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Module 2: Personalized Bioavailability Results}{14}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Module 3: Drug-Herb Interaction Prediction Results}{14}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Module 4: Reverse Recommendation Results}{15}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Module 5: Spectral Compound Quantification Results}{16}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Consolidated Visual Evidence from Full Output Suite}{17}{subsection.5.6}%
+\contentsline {section}{\numberline {6}Comparative Analysis}{19}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Evaluation Metrics and Statistical Protocol}{19}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Baseline Comparisons}{20}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Quantitative Improvements}{20}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Submission-Oriented Result Summary}{20}{subsection.6.4}%
+\contentsline {section}{\numberline {7}Patent-Eligible Innovations}{21}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Technical Effect Analysis}{21}{subsection.7.1}%
+\contentsline {section}{\numberline {8}Implementation and Deployment}{21}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Model Artifacts}{21}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}System Integration}{22}{subsection.8.2}%
+\contentsline {section}{\numberline {9}Discussion}{22}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Significance of Results}{22}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Limitations and Future Work}{23}{subsection.9.2}%
+\contentsline {section}{\numberline {10}Conclusion}{23}{section.10}%
